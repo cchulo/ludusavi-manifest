@@ -1,0 +1,20 @@
+EmulationStation:
+  files:
+    <root>/org.libretro.RetroArch/config/retroarch/saves:
+      tags:
+        - save
+    <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR:
+      tags:
+        - save
+    <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP:
+      tags:
+        - save
+    <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA:
+      tags:
+        - save
+    <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii/shared2/menu/FaceLib:
+      tags:
+        - save
+    <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii/title:
+      tags:
+        - save
