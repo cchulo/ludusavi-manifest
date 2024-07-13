@@ -3,18 +3,51 @@ EmulationStation:
     <root>/org.libretro.RetroArch/config/retroarch/saves:
       tags:
         - save
+      when:
+        - os: linux
     <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR:
       tags:
         - save
+      when:
+        - os: linux
     <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP:
       tags:
         - save
+      when:
+        - os: linux
     <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA:
       tags:
         - save
+      when:
+        - os: linux
     <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii/shared2/menu/FaceLib:
       tags:
         - save
+      when:
+        - os: linux
     <root>/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii/title:
       tags:
         - save
+      when:
+        - os: linux
+Resident-Evil-Rebirth:
+  files:
+    <root>/Resident-Evil-Rebirth/savedata:
+      tags:
+        - save
+      when:
+        - os: linux
+Resident-Evil2-Rebirth:
+  files:
+    <root>/Resident-Evil2-Rebirth/savedata:
+      tags:
+        - save
+      when:
+        - os: linux
+Resident-Evil3-Rebirth:
+  files:
+    <root>/Resident-Evil3-Rebirth/savedata:
+      tags:
+        - save
+      when:
+        - os: linux
